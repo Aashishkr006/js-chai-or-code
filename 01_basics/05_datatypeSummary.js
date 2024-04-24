@@ -1,4 +1,10 @@
-//  Primitive data type
+/* The categorisation of datatype in js is 2 on the basis of storing and accessing data in memory
+1 => Primitive
+2 => NON Primitive
+*/
+/*  Primitive data type :
+(prmintive datatype are call by value , it means the changes which you do will happen in its copy not in original.)
+*/
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -13,7 +19,7 @@ const id = Symbol('123')
 const anotherId = Symbol('123')
 
 console.log(id === anotherId);
-//id change to andar ka chij same bhee rahe to koi fark nhi kyu ki we laga id hai so symbol anag//
+//id change ro andar ka chij same bhee rahe to koi fark nhi kyu ki woo alag id hai so symbol alag//
 
 // const bigNumber = 3456543576654356754n
 

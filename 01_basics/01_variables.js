@@ -11,7 +11,7 @@ accountPassword="56784"
 accountCity="patna"
 
 // console.log (accountEmail);
-console.log ([accountId, accountPassword, accountCity, accountEmail, accountState])
+console.table ([accountId, accountPassword, accountCity, accountEmail, accountState])
 /*
 Prefer not to use 'var'
 for constent use 'const' and for variable use 'let'.
