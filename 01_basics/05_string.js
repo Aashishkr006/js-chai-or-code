@@ -1,3 +1,6 @@
+// for checking the all functions in string in console {const name = new string ('Aashish')} just run this
+
+
 const name = "Aashish"
 const repocount = 50
 
