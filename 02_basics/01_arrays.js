@@ -16,7 +16,7 @@ myNum.unshift(6);
 // console.log(myNum.includes(9));
 // console.log(myNum.indexOf(5));
 
-const newMyNum = myNum.join();
+const newMyNum = myNum.join(); // this join() bind it and changes it into the string
 
 // console.log(myNum);
 // console.log(newMyNum);
@@ -60,4 +60,3 @@ splice() operates directly on the original array and modifies it.
 */
 
 
-//hey hdfvyr

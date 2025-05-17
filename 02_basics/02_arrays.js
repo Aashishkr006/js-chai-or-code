@@ -8,12 +8,12 @@ const actoress = ["Shradha", "Alia" , "Priyanka"];
 // actor.concat(actoress);
 // console.log(actor);
 
-// const newActors = actor.concat(actoress);
+// const newActors = actor.concat(actoress);  // concat gives you the new array
 // console.log(newActors);
 
 // push exhisting array pe hi push krta hai but concat new array form krta hai
 
-const allCelebrities = [...actor, ...actoress];
+const allCelebrities = [...actor, ...actoress];  // spread operator
 console.log(allCelebrities);
 
 // flat 
@@ -34,7 +34,7 @@ console.log(Array.from({name: "hitesh"})) // interesting
 let score1 = 100
 let score2 = 200
 let score3 = 300
+let fname = "Aashish"
 
-console.log(Array.of(score1, score2, score3));
+console.log(Array.of(score1, score2, score3,fname)); // Array.of returns a new array from set of element(Variables , Arrays etc.)
 
-// hey
