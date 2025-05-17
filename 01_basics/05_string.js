@@ -37,3 +37,31 @@ console.log(url.replace('%20', '-'))
 console.log(url.includes('sundar'))
 
 console.log(gameName.split('-'));
+
+
+
+
+
+
+   // *********  Importent 
+
+   let fname="Aashish";
+   let lname=new String("Kumar")
+
+   let fname2=fname;
+   fname2="Parshuram";
+
+   let lname2=lname;
+   lname2="Singh"
+   
+
+   console.log(fname)
+   console.log(fname2)
+   console.log(lname)
+   console.log(lname2)
+
+/*  
+    Need to keep in mind that the how stack & heap memory work, Data type aapna characteristic nhi bdlega string h to string jysa hi behave krega {Caahe wo string object hi kyu n ban jay }
+
+    In JavaScript, even when a string is wrapped inside a String object stored on the heap, the actual string value remains immutable. This means the sequence of characters cannot be changed once created. When you call methods like .toUpperCase(), they do not modify the original string inside the object; instead, they return a new string with the applied changes. The String object itself is mutable (you can add properties to it), but its internal string value is fixed. This design ensures strings behave consistently and efficiently in memory, whether they are primitive values stored on the stack or wrapped in objects on the heap.
+*/
