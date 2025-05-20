@@ -155,3 +155,15 @@ users[1].email // you can access it by this, you understand that why I use users
 
 
 
+/*  Object me directly methods bhee store kr sakte h without giving key */
+
+// const calculator ={
+//     add(a,b){
+//         return a+b;
+//     },
+//     sub(a,b){
+//         return a-b;
+//     }
+// }
+
+// console.log(calculator.add(2,3))
