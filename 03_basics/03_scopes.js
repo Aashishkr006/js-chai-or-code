@@ -43,6 +43,11 @@ if (true) {
 // console.log(username);
 
 
+/*   ****  "Lexical Scope" ****
+    A variable defined outside a function can be acccessible inside another function edfined after the variable declaration
+    => Basically nested function me socpe wala concept hai
+   */
+
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
