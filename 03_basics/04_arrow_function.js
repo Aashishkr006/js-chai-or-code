@@ -127,7 +127,7 @@ const multiplyTwo = (num1,num2) => num1*num2;
 
 
 
-const name = (name) => ({userName: "Aashish"})
+const name = () => ({userName: "Aashish"})    //yeha object retuen krwa rhe h
 
 const fname = (name) => ({userName: name})
 
