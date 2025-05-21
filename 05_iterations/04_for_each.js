@@ -1,3 +1,10 @@
+/**
+ * forEach
+ * don't return new array
+ * not chainable
+ * iterate without returning
+ */
+
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // coding.forEach( function (val){
