@@ -1,10 +1,12 @@
-/** For...0f */
+/** For...0f 
+ ** Iterate over value
+*/
 
 
 let arr =[1,2,3,4,5]
 
-for(const index of arr){
-    // console.log(i);    // it will print all the values
+for(const value of arr){
+    // console.log(value);    // it will print all the values
 }
 
 
