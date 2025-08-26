@@ -15,5 +15,7 @@ console.table ([accountId, accountPassword, accountCity, accountEmail, accountSt
 /*
 Prefer not to use 'var'
 for constent use 'const' and for variable use 'let'.
+ 
+
 
 */
